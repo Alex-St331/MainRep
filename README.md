@@ -1,2 +1,2 @@
 # MainRep
-All my little Code Scaps and little Projects
+All my little Code Scraps and little Projects

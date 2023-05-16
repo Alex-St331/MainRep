@@ -5,11 +5,23 @@ All my little Code Scraps and little Projects
 
     # Fibonacci Sequence:
 
-    This script calculates the nth number in the Fibonacci sequence, 
-    which is a series of numbers in which each number is the sum of the two preceding ones, usually starting with 0 and 1. 
-    The function fibonacci(n) takes an integer n and returns the nth Fibonacci number. 
-    This function first checks if n is positive, then if n is 1 or 2 it returns 0 or 1, 
-    respectively. For larger n, it uses a loop to calculate the nth Fibonacci number.
+    This Python script generates the Fibonacci sequence up to the nth term. The Fibonacci sequence 
+    is a series of numbers in which each number is the sum of the two preceding ones, usually starting with 0 and 1.
+
+    The function fibonacci(n) accomplishes this by first checking if n is a positive integer.
+     If not, it will print an error message. If n is positive,
+      it initiates two variables a and b as the first two numbers of the Fibonacci sequence (0 and 1).
+
+    The function then enters a loop that runs n - 2 times, as the first two numbers have already been printed.
+    In each iteration of the loop, the function calculates the next number in the sequence by summing a and b, 
+    updates a and b to the last two numbers, and prints the next number.
+
+    The end=' ' argument in the print function is used to print the numbers on the same line with a space in between. 
+    A final print() is called at the end to print a newline after the whole sequence.
+
+    This function doesn't use any built-in Python Fibonacci functions, and manually calculates the sequence. To use it, 
+    call the function fibonacci(n), replacing n with the number of Fibonacci sequence elements you want to generate. 
+    For example, fibonacci(10) will print the first 10 numbers of the Fibonacci sequence.
 
     # Prime Number Checker:
 

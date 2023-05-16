@@ -1,14 +1,14 @@
 def fibonacci(n):
     if n <= 0:
         print("Input should be a positive integer.")
-    elif n == 1:
-        return 0
-    elif n == 2:
-        return 1
     else:
         a, b = 0, 1
+        print(a, end=' ')
+        if n > 1:
+            print(b, end=' ')
         for _ in range(2, n):
             a, b = b, a + b
-        return b
+            print(b, end=' ')
+        print()
 
-print(fibonacci(10))
+fibonacci(10)

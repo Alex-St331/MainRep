@@ -9,8 +9,8 @@ All my little Code Scraps and little Projects
     is a series of numbers in which each number is the sum of the two preceding ones, usually starting with 0 and 1.
 
     The function fibonacci(n) accomplishes this by first checking if n is a positive integer.
-     If not, it will print an error message. If n is positive,
-      it initiates two variables a and b as the first two numbers of the Fibonacci sequence (0 and 1).
+    If not, it will print an error message. If n is positive,
+    it initiates two variables a and b as the first two numbers of the Fibonacci sequence (0 and 1).
 
     The function then enters a loop that runs n - 2 times, as the first two numbers have already been printed.
     In each iteration of the loop, the function calculates the next number in the sequence by summing a and b, 
@@ -100,9 +100,5 @@ All my little Code Scraps and little Projects
     Will come later
 
 # TypeScript
-
-    Will come later
-
-# Rust
 
     Will come later

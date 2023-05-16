@@ -1,6 +1,6 @@
 # MainRep
 All my little Code Scraps and little Projects
-# Explanations:  
+
 # Python:
 
     # Fibonacci Sequence:
